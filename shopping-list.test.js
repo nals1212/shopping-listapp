@@ -1,7 +1,7 @@
 const { test, expect } = require('@playwright/test');
 const path = require('path');
 
-const filePath = `file://${path.resolve(__dirname, 'shopping-list.html')}`;
+const filePath = `file://${path.resolve(__dirname, 'index.html')}`;
 
 test.describe('쇼핑 리스트 앱 테스트', () => {
 
