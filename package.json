@@ -1,0 +1,17 @@
+{
+  "name": "shopping-listapp",
+  "version": "1.0.0",
+  "description": "Shopping List App",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@playwright/test": "^1.57.0",
+    "playwright": "^1.57.0"
+  }
+}
